@@ -5,6 +5,8 @@ let bool = false;
 let sym = Symbol("uniq");
 let undef = undefined;
 let unknown = null;
+let obj = {};
+let arr = {};
 
 // console.log(typeof str); - string
 // console.log(typeof nr); number
@@ -15,3 +17,6 @@ let unknown = null;
 // console.log(typeof unknown); - object
 
 // console.log(typeof typeof bool); - string
+
+// console.log(typeof obj); - object
+// console.log(typeof arr); - object
