@@ -10,3 +10,11 @@ function test2(param1, ...param2) {
 
 test(...[1, 2], ...[3, 4]);
 test2("hi", ["there", "How are you?"]);
+
+(function () {
+  console.log("imidenlty");
+})();
+
+const anonFunction = function () {
+  console.log("i am anon");
+};
